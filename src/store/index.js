@@ -6,8 +6,8 @@ export default createStore({
   state: {
     Home: {},
     About: [],
-    Resume: [],
-    skillsData: [],
+    Resume: [], 
+    Skills: [],
     EXP: [],
     Time: [],
     Techno: [],
@@ -17,6 +17,7 @@ export default createStore({
     Contact: [],
     Footer: [],
     stars: [],
+    Feedback:[],
     camera: {
       x: 0,
       y: 0,
@@ -37,9 +38,9 @@ export default createStore({
       console.log('Setting Resume data:', Resume);
       state.Resume = Resume;
     },
-    setSkills(state, skillsData) {
-      console.log('Setting Skills data:', skillsData);
-      state.Skills = skillsData;
+    setSkills(state, Skills) {
+      console.log('Setting Skills data:', Skills);
+      state.Skills = Skills;
     },
     setExperience(state, EXP){
       console.log('Setting Experience data:', EXP);
@@ -76,6 +77,10 @@ export default createStore({
     setStars(state, stars) {
       state.stars = stars;
     },
+    setFeedback(state, Feedback) {
+      console.log('Setting Footer data:', Feedback);
+      state.Feedback = Feedback;
+    },
     setCameraPosition(state, { x, y }) {
       state.camera.x = x;
       state.camera.y = y;
@@ -86,23 +91,24 @@ export default createStore({
     async fetchDataFromAPI ({commit}){
 //fetching data
       try{
-        const homeResponse = await axios.get(' http://localhost:3000/Home');
-        const aboutResponse = await axios.get(' http://localhost:3000/About');
-        const resumeResponse = await axios.get(' http://localhost:3000/Resume');
-        const skillsResponse = await axios.get(' http://localhost:3000/Skills');
-        const experienceResponse = await axios.get(' http://localhost:3000/Experience');
-        const timeResponse = await axios.get(' http://localhost:3000/time');
-        const technoResponse = await axios.get(' http://localhost:3000/Techno');
-        const projectsResponse = await axios.get(' http://localhost:3000/Projects');
-        const projCardResponse = await axios.get(' http://localhost:3000/ProjCard');
-        const testimonialsResponse = await axios.get('  http://localhost:3000/Testimonials');
-        const contactResponse = await axios.get(' http://localhost:3000/Contact');
-        const footerResponse = await axios.get(' http://localhost:3000/Footer');
+        const homeResponse = await axios.get(' https://jodiab.github.io/data/');
+        const aboutResponse = await axios.get(' https://jodiab.github.io/data/');
+        const resumeResponse = await axios.get('https://jodiab.github.io/data/');
+        const skillsResponse = await axios.get(' https://jodiab.github.io/data/');
+        const experienceResponse = await axios.get(' https://jodiab.github.io/data/');
+        const timeResponse = await axios.get(' https://jodiab.github.io/data/');
+        const technoResponse = await axios.get(' https://jodiab.github.io/data/');
+        const projectsResponse = await axios.get(' https://jodiab.github.io/data/');
+        const projCardResponse = await axios.get(' https://jodiab.github.io/data/');
+        const testimonialsResponse = await axios.get('  https://jodiab.github.io/data/');
+        const contactResponse = await axios.get(' https://jodiab.github.io/data/');
+        const footerResponse = await axios.get(' https://jodiab.github.io/data/');
+        const FeedbackResponse = await axios.get(' https://jodiab.github.io/data/');
 
         const homeData = homeResponse.data;
         const aboutData = aboutResponse.data;
         const resumeData = resumeResponse.data;
-        const skillsData = skillsResponse.data;
+        const Skills = skillsResponse.data;
         const experienceData = experienceResponse.data;
         const timeData = timeResponse.data;
         const technoData = technoResponse.data;
@@ -111,13 +117,16 @@ export default createStore({
         const testimonialsData = testimonialsResponse.data;
         const contactData = contactResponse.data;
         const footerData = footerResponse.data;
+        const feedbackData = FeedbackResponse.data;
+
+
 
 
 // committing the mutations to set the data in the state
         commit('setHome', homeData);
         commit ('setAbout', aboutData);
         commit ('setResume', resumeData);
-        commit ('setSkills', skillsData);
+        commit ('setSkills', Skills);
         commit ('setExperience', experienceData);
         commit ('setTime', timeData);
         commit ('setTechno', technoData);
@@ -126,6 +135,7 @@ export default createStore({
         commit('setTestimonials', testimonialsData);
         commit ('setContact', contactData);
         commit ('setFooter', footerData);
+        commit('setFeedback', feedbackData);
       }
       catch(error){
         console.error('Error with fetching the data:' , error);

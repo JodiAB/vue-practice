@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Spin />
     <Navi />
     <router-view />
     <Stars />
@@ -11,11 +12,13 @@
 import Navi from '@/components/Navi.vue'; // Adjust the import path based on your project structure
 import Foot from '@/components/Foot.vue';
 import Stars from '@/components/Stars.vue'
+import Spin from '@/components/Spin.vue'
 export default {
   components: {
     Navi,
     Foot,
     Stars,
+    Spin,
     
   
   },

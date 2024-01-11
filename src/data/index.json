@@ -1,181 +1,182 @@
 {
-"Home": [
+    "Home": [
+        {
+            "id": 1,
+            "heading": "Hi, Im Jodi Abrahams",
+            "sub-heading": "I am a Web Developer  ",
+            "para": "",
+            "image": ""
+        }
+    ],
+    "About":[
+        
+        {
+    
+            "id": 1,
+            "heading" : "About Me",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. Provident, vitae hic. Fugit ad iste animi, repudiandae, laboriosam est obcaecati cum quam ut eum vero repellendus quidem consequuntur autem, dicta corrupti fuga? Veniam voluptas aspernatur perferendis ab culpa ullam eius asperiores?",
+            "image": ""
+    
+    
+    }
+    ],
+    
+    "Resume":[ {
+    
+        "id":1,
+        "heading": "My Resume",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nesciunt."
+    
+    }
+
+    
+    
+    
+    ],
+    
+    "skills":[
     {
         "id": 1,
-        "heading": "Hi, Im Jodi Abrahams",
-        "sub-heading": "I am a Web Developer  ",
-        "para": "",
-        "image": ""
-    }
-],
-"About":[
+        "headings": "Web Developer",
+        "icon": ""
+    },
+    {
+        "id": 2,
+        "headings": "Web Developer",
+        "icon": ""
+    },
     
     {
-
+        "id": 3,
+        "headings": "Web Developer",
+        "icon": ""
+    },
+    
+    {
+        "id": 4,
+        "headings": "Web Developer",
+        "icon": ""
+    }],
+    
+    "Experience": [{
+    
         "id": 1,
-        "heading" : "About Me",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. Provident, vitae hic. Fugit ad iste animi, repudiandae, laboriosam est obcaecati cum quam ut eum vero repellendus quidem consequuntur autem, dicta corrupti fuga? Veniam voluptas aspernatur perferendis ab culpa ullam eius asperiores?",
-        "image": ""
-
-
-}
-],
-
-"Resume":[ {
-
-    "id":1,
-    "heading": "My Resume",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nesciunt."
-
-}
-
-
-
-],
-
-"skills":[
-{
-    "id": 1,
-    "headings": "Web Developer",
-    "icon": ""
-},
-{
-    "id": 2,
-    "headings": "Web Developer",
-    "icon": ""
-},
-
-{
-    "id": 3,
-    "headings": "Web Developer",
-    "icon": ""
-},
-
-{
-    "id": 4,
-    "headings": "Web Developer",
-    "icon": ""
-}],
-
-"Experience": [{
-
-    "id": 1,
-    "subHeading": "What i have done",
-    "heading": "Work Experience"
-}],
-
-"Time": [
+        "subHeading": "What i have done",
+        "heading": "Work Experience"
+    }],
     
-    {
-
-    "id": 1,
-    "heading": "Junior Network Technician Volenteer",
-    "date": "2017 - 2019",
-    "subHeading": "Cape Peninsula University of Technology: CPUT",
-    "point1": "Troubleshoot network issues and assist in resolving connectivity problems."
-
-},
-{
-    "id": 2,
-    "heading": "Junior Network Technician Volenteer",
-    "date": "2017 - 2019",
-    "subHeading": "Cape Peninsula University of Technology: CPUT",
-    "point1": "Troubleshoot network issues and assist in resolving connectivity problems."
-}
-],
-
-"Techno": [{
-
-    "id": 1,
-    "subHeading": "Technologies ive used",
-    "heading": "Technologies"
-},
-
-{
-    "id": 2,
-    "balls": ""
-}
-
-
-],
-
-"Projects": [
+    "Time": [
+        
+        {
     
-    {
-        "id" : 1,
-        "subHeading" : "My Work",
-        "heading": "Projects",
-        "para" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. Provident, vitae hic. Fugit ad iste animi, repudiandae, laboriosam est obcaecati cum quam ut eum vero repellendus quidem consequuntur autem, dicta corrupti fuga? Veniam voluptas aspernatur perferendis ab culpa ullam eius asperiores?"
-
-}],
-
-"ProjCard": [
-    
-    {
-        "id" : 1,
-        "icon" : "",
-        "heading": "",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
-    },
-    {
-        "id" : 2,
-        "icon" : "",
-        "heading": "",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
-    },
-    {
-        "id" : 3,
-        "icon" : "",
-        "heading": "",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
-    },
-    {
-        "id" : 4,
-        "icon" : "",
-        "heading": "",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
-    },
-    {
-        "id" : 5,
-        "icon" : "",
-        "heading": "",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
-    },
-    {
-        "id" : 6,
-        "icon" : "",
-        "heading": "",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
-    }
-
-],
-"Testimonials" : [
-    {
-        "id" : 1,
-        "icon" : "",
-        "heading": "Testimonials",
-        "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
-    }
-],
-
-"Contact" : [
-
-    {
         "id": 1,
-        "subheading" : "Get in Touch",
-        "heading": "Contact",
-        "name" : "Name",
-        "email" : "Your Email",
-        "Message" : "Your Message"
-    }
-],
-
-"Footer" : [
-
+        "heading": "Junior Network Technician Volenteer",
+        "date": "2017 - 2019",
+        "subHeading": "Cape Peninsula University of Technology: CPUT",
+        "point1": "Troubleshoot network issues and assist in resolving connectivity problems."
+    
+    },
     {
-        "id": 1,
-        "heading": "Copyright © 2024 All Rights Reserved by Jodi Abrahams"
-       
+        "id": 2,
+        "heading": "Junior Network Technician Volenteer",
+        "date": "2017 - 2019",
+        "subHeading": "Cape Peninsula University of Technology: CPUT",
+        "point1": "Troubleshoot network issues and assist in resolving connectivity problems."
     }
-]
-}
+    ],
+    
+    "Techno": [{
+    
+        "id": 1,
+        "subHeading": "Technologies ive used",
+        "heading": "Technologies"
+    },
+    
+    {
+        "id": 2,
+        "balls": ""
+    }
+    
+    
+    ],
+    
+    "Projects": [
+        
+        {
+            "id" : 1,
+            "subHeading" : "My Work",
+            "heading": "Projects",
+            "para" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. Provident, vitae hic. Fugit ad iste animi, repudiandae, laboriosam est obcaecati cum quam ut eum vero repellendus quidem consequuntur autem, dicta corrupti fuga? Veniam voluptas aspernatur perferendis ab culpa ullam eius asperiores?"
+    
+    }],
+    
+    "ProjCard": [
+        
+        {
+            "id" : 1,
+            "icon" : "",
+            "heading": "",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
+        },
+        {
+            "id" : 2,
+            "icon" : "",
+            "heading": "",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
+        },
+        {
+            "id" : 3,
+            "icon" : "",
+            "heading": "",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
+        },
+        {
+            "id" : 4,
+            "icon" : "",
+            "heading": "",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
+        },
+        {
+            "id" : 5,
+            "icon" : "",
+            "heading": "",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
+        },
+        {
+            "id" : 6,
+            "icon" : "",
+            "heading": "",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
+        }
+    
+    ],
+    "Testimonials" : [
+        {
+            "id" : 1,
+            "icon" : "",
+            "heading": "Testimonials",
+            "para": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad quia natus explicabo facere quaerat soluta molestiae quis, ab beatae aliquam. Commodi sint nemo modi autem voluptate laborum accusamus? Dolore illum facilis dicta, vel dolorem dignissimos praesentium error nobis accusamus accusantium quo maiores. "
+        }
+    ],
+    
+    "Contact" : [
+    
+        {
+            "id": 1,
+            "subheading" : "Get in Touch",
+            "heading": "Contact",
+            "name" : "Name",
+            "email" : "Your Email",
+            "Message" : "Your Message"
+        }
+    ],
+    
+    "Footer" : [
+    
+        {
+            "id": 1,
+            "heading": "Copyright © 2024 All Rights Reserved by Jodi Abrahams"
+           
+        }
+    ]
+    }

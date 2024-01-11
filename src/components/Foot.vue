@@ -1,6 +1,6 @@
 <template >
     <div class="footer">
-        <h2 class="foot">{{ footerData?.[0]?.heading || 'Default Heading' }}</h2>
+        <h2 class="foot">&copy; 2024 Jodi Abrahams Portfolio. All rights reserved.</h2>
     </div>
 </template>
 <script>
@@ -30,6 +30,7 @@ import { mapState } from 'vuex';
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
     text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; /* Neon glow effect */
+    position: fixed;
   }
   
 </style>
